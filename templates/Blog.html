@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="TemplateMo">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap" rel="stylesheet">
+
+    <title>PhisherMan-Blogs</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="{{ url_for('static',filename='vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="{{ url_for('static',filename='assets/css/fontawesome.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='assets/css/PhishingDetection.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='assets/css/owl.css')}}">
+ 
+     <!-- Main Stylesheet -->
+     <link rel="stylesheet" href="{{ url_for('static',filename='Blog/css/style.css')}}">
+<!--
+-->
+  </head>
+
+  <body>
+
+    <!-- ***** Preloader Start ***** -->
+    <div id="preloader">
+        <div class="jumper">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>  
+    <!-- ***** Preloader End ***** -->
+
+    <!-- Header -->
+    <div class="sub-header">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 col-xs-12">
+            <ul class="left-info">
+             
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <ul class="right-icons">
+              <li><a href="https://github.com/Himank-J/PhishingDetection_Website"><i class="fa fa-github" style="font-size: 30px; position: relative; top: 5px"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="/"><h2>PhisherMan</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/about">About Us</a>
+              </li>  
+              <li class="nav-item active">
+                <a class="nav-link" href="/blog">Blogs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/behindthescenes">Behind the Scenes</a>
+              </li>                          
+              <li class="nav-item">
+                <a class="nav-link" href="/statistics">Statistics</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/detecturl">Detect a URL</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Page Content -->
+    <div class="page-heading header-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h1>Blogs</h1>
+            <span>Follow up with latest Trends in Phishing </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section blog-wrap ">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-8">
+                        <div class="row">
+                          <div class="col-lg-12">
+                              <div class="blog-post">
+                                  <img src="{{ url_for('static',filename='Blog/images/blog/macboat.jpg')}}" alt="" class="img-fluid">
+                                  <div class="mt-4 mb-3 d-flex">
+                                      <div class="post-author mr-3">
+                                          <i class="fa fa-user"></i>
+                                          <span class="h6 text-uppercase">by Phishing.org</span>
+                                      </div>
+  
+                                  </div>
+                                  <a class="h4 ">
+                                    What Is Phishing?</a>
+                                  <p class="mt-3">Phishing is a cybercrime in which a target or targets are contacted by email, telephone or text message by someone posing as a legitimate institution to lure individuals into providing sensitive data such as personally identifiable information, banking and credit card details, and passwords.</p><br><br>
+                                  <a href="https://www.phishing.org/what-is-phishing" class="read-more">Read More <i class="fa fa-angle-right"></i></a>
+                              </div>
+                          </div>
+                          <div class="row">
+                           <div class="col-lg-12">
+                              <div class="blog-post">
+                                  <img src="{{ url_for('static',filename='Blog/images/blog/ransomware.png')}}" alt="" class="img-fluid">
+                                  <div class="mt-4 mb-3 d-flex">
+                                      <div class="post-author mr-3">
+                                          <i class="fa fa-user"></i>
+                                          <span class="h6 text-uppercase">By Kasey Hewitt</span>
+                                      </div>
+  
+                                  </div>
+                                  <a class="h4 ">12 Types of Phishing Attacks and How to Identify Them</a>
+                                  <p class="mt-3">Phishing attacks have been around since the early days of the internet. Cybercriminals propagated the first phishing attacks in the mid-1990s, using the America Online (AOL) service to steal passwords and credit card information. While modern attacks use similar social engineering models</p><br>
+                                  <a href="https://securityscorecard.com/blog/types-of-phishing-attacks-and-how-to-identify-them" class="read-more">Read More <i class="fa fa-angle-right"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                      </div>
+  
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="blog-post">
+                                  <img src="{{ url_for('static',filename='Blog/images/blog/Wednesday.png')}}" alt="" class="img-fluid">
+                                  <div class="mt-4 mb-3 d-flex">
+                                      <div class="post-author mr-3">
+                                          <i class="fa fa-user"></i>
+                                          <span class="h6 text-uppercase">
+                                            By Justin Buchanan</span>
+                                      </div>
+  
+                                  </div>
+                                  <a class="h4 ">Whiteboard Wednesday: Phishing Awareness Training</a>
+                                  <p class="mt-3"> In this week’s Whiteboard Wednesday, we outline how to implement a phishing awareness program to improve employee resilience in 5 steps.</p><br>
+                                  <a href="https://www.rapid7.com/solutions/phishing-awareness-training/" class="read-more">Watch Now <i class="fa fa-angle-right"></i></a>
+                              </div>
+                          </div>
+                      </div>
+  
+                      <div class="row">
+                          <div class="col-lg-12">
+                              <div class="blog-post">
+                                  <img src="{{ url_for('static',filename='Blog/images/blog/phishing.jpg')}}" alt="" class="img-fluid">
+                                  <div class="mt-4 mb-3 d-flex">
+                                      <div class="post-author mr-3">
+                                          <i class="fa fa-user"></i>
+                                          <span class="h6 text-uppercase">By Maddie</span>
+                                      </div>
+  
+                                  </div>
+                                  <a class="h4 ">Must-Know Phishing Statistics: Updated 2021</a>
+                                  <p class="mt-3">According to the FBI, phishing was the most common type of cybercrime in 2020—and phishing incidents nearly doubled in frequency, from 114,702 incidents in 2019, to 241,324 incidents in 2020.</p><br>
+                                  <a href="https://www.tessian.com/blog/phishing-statistics-2020/" class="read-more">Read More <i class="fa fa-angle-right"></i></a>
+                              </div>
+                          </div>
+  
+                              <div class="col-lg-12">
+                              <div class="blog-post">
+                                  <img src="{{ url_for('static',filename='Blog/images/blog/trend.png')}}" alt="" class="img-fluid">
+                                  <div class="mt-4 mb-3 d-flex">
+                                      <div class="post-author mr-3">
+                                          <i class="fa fa-user"></i>
+                                          <span class="h6 text-uppercase">By apwg.org</span>
+                                      </div>
+  
+                                  </div>
+                                  <a class="h4 ">Phishing Activity Trends Reports</a>
+                                  <p class="mt-3">After doubling in 2020, the amount of phishing has remained at a steady but high level. APWG saw 222,127 attacks in June 2021, which was the third-worst month in APWG’s reporting history.
+</p><br><br>
+                                  <a href="https://docs.apwg.org/reports/apwg_trends_report_q2_2021.pdf" class="read-more">Read More <i class="fa fa-angle-right"></i></a>
+                              </div>
+                          </div>
+                      </div>
+  
+              </div>
+              <div class="col-lg-4">
+                                      
+  
+                          
+  
+                          <div class="col-lg-12">
+                              <div class="sidebar-widget category">
+                                  <h5 class="mb-3">Trends</h5>
+                                  <ul class="list-styled">
+                                    <li><a href='https://www.youtube.com/watch?v=XsOWczwRVuc'>What Is Phishing and How to Avoid the Bait</a></li>
+                                      <li><a href='https://www.gbtech.net/top-phishing-trends-to-watch-out-for-in-2021/'>TOP PHISHING TRENDS TO WATCH OUT FOR THIS YEAR</a></li>
+                                      <li><a href='https://www.keepnetlabs.com/phishing-awareness-tips/'>Phishing Awareness: 5 Tips To Help You Understand Phishing Emails</a></li>
+                                      <li><a href='https://docs.microsoft.com/en-us/windows/security/threat-protection/intelligence/phishing-trends'>Phishing trends and techniques</a></li>
+                                      <li><a href='https://www.youtube.com/watch?v=Yc1TdXWLjVo'>Kunal Kamra Speaks To Victims of Phishing Scams</a></li>
+                                      
+                                      
+                                  </ul>
+                              </div>
+                          </div>
+  
+                      </div>
+                  </div>
+              </div>   
+          </div>
+      </div>
+  </section>
+
+    
+
+
+    <!-- Footer Starts Here -->
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3 footer-item">
+            <h4>PhisherMan</h4>
+            <p><nobr>You can find our project at github!<br>Dont forget to leave a &nbsp;<i class="fa fa-star" aria-hidden="true"></i></nobr></p>
+            <ul class="social-icons">
+              <li><a href="https://github.com/Himank-J/PhishingDetection_Website"><i class="fa fa-github" style="font-size: 30px;"></i></a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Useful Links</h4>
+            <ul class="menu-list">
+              <li><a href="https://www.phishing.org/what-is-phishing">What Is Phishing?</a></li>
+              <li><a href="https://securityscorecard.com/blog/types-of-phishing-attacks-and-how-to-identify-them">12 Types of Phishing Attacks</a></li>
+              <li><a href="https://www.tessian.com/blog/phishing-statistics-2020/">Must-Know Phishing Statistics</a></li>
+              <li><a href="https://docs.apwg.org/reports/apwg_trends_report_q2_2021.pdf">Phishing Activity Trends Reports</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item">
+            <h4>Additional Pages</h4>
+            <ul class="menu-list">
+              <li><a href="/about">About Us</a></li>
+              <li><a href="/blog">Blog</a></li>
+              <li><a href="/behindthescenes">How We Work</a></li>
+              <li><a href="/statistics">Statistics</a></li>
+              <li><a href="/detecturl">Detect a URL</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3 footer-item last-item">
+            <h4>Contact Us</h4>
+            <ul class="menu-list">
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/himank-jain/">Himank Jain</a></li>
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/ayush-tiwari-2867811b2/">Ayush Tiwari</a></li>
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/keshav-rao/">Keshav Rao</a></li>
+              <li><i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp;&nbsp;<a href="https://www.linkedin.com/in/soham-joshi-b543131b4/">Soham Joshi</a></li>
+              
+            </ul>
+            
+          </div>
+        </div>
+      </div>
+    </footer>
+    
+    <div class="sub-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <p>Copyright &copy; 2021 | PhisherMan
+            
+            <a rel="nofollow noopener" href="https://templatemo.com" target="_blank"></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="{{ url_for('static',filename='vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{ url_for('static',filename='vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+
+    <!-- Additional Scripts -->
+    <script src="{{ url_for('static',filename='assets/js/custom.js')}}"></script>
+    <script src="{{ url_for('static',filename='assets/js/owl.js')}}"></script>
+    <script src="{{ url_for('static',filename='assets/js/slick.js')}}"></script>
+    <script src="{{ url_for('static',filename='assets/js/accordions.js')}}"></script>
+
+    <script language = "text/Javascript"> 
+      cleared[0] = cleared[1] = cleared[2] = 0; 
+      function clearField(t){                   
+      if(! cleared[t.id]){                      
+          cleared[t.id] = 1;  
+          t.value='';         
+          t.style.color='#fff';
+          }
+      }
+    </script>
+
+  </body>
+</html>
