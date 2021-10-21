@@ -9,6 +9,3 @@ beautifulsoup4==4.10.0
 dnspython==2.1.0
 scikit-learn==0.22.2.post1
 xgboost==0.90
-git remote add origin https://github.com/Himank-J/PhishingDetection_Website.git
-git branch -M main
-git push -u origin main
