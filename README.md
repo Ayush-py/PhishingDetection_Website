@@ -6,7 +6,7 @@
 <br />
 <p align="center">
   <a href="https://ibb.co/sC0TMQV">
-    <img src="githubimg/Logo006.png" alt="Logo" width="180" height="120">
+    <img src="githubimg/Logo006.png" alt="Logo" width="220" height="120">
   </a>
 
   <h3 align="center">PhisherMan</h3>
